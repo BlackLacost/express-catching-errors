@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:4000
+
+### Sync
+GET {{baseUrl}}/sync
+
+### Callback
+GET {{baseUrl}}/callback
+
+### Promise
+GET {{baseUrl}}/promise
+
+### Async-await
+GET {{baseUrl}}/async-await
+
+### Set-timeout
+GET {{baseUrl}}/set-timeout
